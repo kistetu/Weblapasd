@@ -1,0 +1,31 @@
+.alap{
+    position: absolute;
+    top: 6%;
+    left:5%;
+    color: rgb(0, 0, 0);
+    }
+    table, th, td {
+        border: 1px solid rgb(255, 255, 255);
+        border-collapse: collapse;
+        padding: 5px;
+        margin: 400px;
+        margin-top: 20px;
+        background-color: #000000;
+    }
+    
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    table {
+        text-align: center;
+        text-transform: ;
+        color: rgb(255, 255, 255);
+    }
+    
+    table tr td:hover {
+        background: #ffffff3f;
+    }
+    
