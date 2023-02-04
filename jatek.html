@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <title>SVG</title>
+    <link rel="stylesheet" href="style.css">
+ </head>   
+
+    <h1>SVG</h1>
+
+<svg width="1000" height="700">
+    <circle id="o"
+    cx="150" cy="250" r="40" stroke="black" stroke-width="1" fill="purpule" />
+    <circle id="c"
+    cx="50" cy="50" r="40" stroke="black" stroke-width="1" fill="white" />
+    
+   
+
+</svg> 
+</body>
+
+<style>
+    svg{
+        border-radius: 5px;
+          box-shadow: 1px 1px 3px black;
+          border: solid black 8px;
+    }
+
+</style>
+
+<script>
+     x = 50
+    setInterval (v=> {
+        document.getElementById ("c").setAttribute ("cx",x) 
+        if (x<800) x += 1},10 )
+    y = 50
+    setInterval (v=> {
+        document.getElementById ("o").setAttribute("oy",y)
+        if (y<800)  y+= 1}, 10)
+</script>
+
+</html>
