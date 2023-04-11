@@ -1,0 +1,40 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+    <input type="number" value="5" onchange="a=Number(this.value)">
+    <input type="number" value="5" onchange="b=Number(this.value)">
+    <button onclick="f()">eredmény</button>
+    <br>
+    Kerület: <div id="x"></div> 
+    <br>
+    Terület: <div id="y"></div>
+
+<script>
+    function f() {
+        document.getElementById("x").innerHTML=2*(a+b)
+        document.getElementById("y").innerHTML=a*b
+    }
+    a = 5
+    b = 5
+</script>
+<style>
+    div{
+        box-shadow: 1px 1px 4px black;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(159, 2, 232);
+        display: inline-block;
+        width: 100px;
+        position: relative;        
+    }
+    body {
+        background-color: rgb(50, 249, 0);
+       text-align: center;
+    }
+</style>
+
+<center>
+    <section id="banner">
+        <div class="banner-btn">
+<a href="https://eredeti42.github.io/sagvari/index.html"><span></span>Vissza</a> 
+</div></section></center></body></html>
